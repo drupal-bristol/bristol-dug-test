@@ -2,8 +2,8 @@
 title: Bristol DUG
 subtitle: The Bristol Drupal User Group.
 email: info@drupalbristol.org.uk
-default_date_format: 'jS F, Y'
-fuzzy_date_format: F Y
+default_date_format: jS F
+fuzzy_date_format: F
 
 imports:
     - venues.yml
