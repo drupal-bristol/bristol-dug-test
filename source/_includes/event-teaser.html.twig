@@ -1,10 +1,21 @@
-{% if event.link %}<a href="{{ event.link }}">{% endif %}
-{{ event.title -}}
-{%- if event.link %}</a>{% endif %}
+{% if event.link %}
+    <a href="{{ event.link }}">{{ event.title }}</a>
+{% else %}
+    {{ event.title }}
+{% endif %}
 
-- {{ event.date|date(event.fuzzy_date ? site.fuzzy_date_format : site.default_date_format) }}
+-
+{% if event.fuzzy_date %}
+    {{ event.date|date(site.fuzzy_date_format) }}
+{% else %}
+    {{ event.date|date(site.default_date_format) }}
+{% endif %}
 
 {% set venue = site.venues[event.location] %}
-- {% if venue.website %}<a href="{{ venue.website }}">{% endif %}
-{{ venue.name|default('TBC') }}
-{% if venue.website %}</a>{% endif %}
+{% set venue_name = venue.name|default('TBC') %}
+-
+{% if venue.website %}
+    <a href="{{ venue.website }}">{{ venue_name }}</a>
+{% else %}
+    {{ venue_name }}
+{% endif %}
