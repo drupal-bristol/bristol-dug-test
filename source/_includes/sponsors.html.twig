@@ -2,9 +2,11 @@
 <ul>
     {% for sponsor in site.sponsors %}
         <li>
-            {% if sponsor.website %}<a href="{{ sponsor.website }}">{% endif %}
-            {{ sponsor.name }}
-            {% if sponsor.website %}</a>{% endif %}
+            {% if sponsor.website %}
+                <a href="{{ sponsor.website }}">{{ sponsor.name }}</a>
+            {% else %}
+                {{ sponsor.name }}
+            {% endif %}
         </li>
     {% endfor %}
 </ul>
