@@ -300,6 +300,11 @@ events:
       link: https://groups.drupal.org/node/478958
       location: sift
 
+    - title: November social
+      date: 2015-11-18
+      link: https://groups.drupal.org/node/487448
+      location: small_bar
+
     - title: December Christmas Thing?
       date: 2015-12
       fuzzy_date: yes
