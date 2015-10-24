@@ -5,6 +5,9 @@ email: info@drupalbristol.org.uk
 default_date_format: jS F
 fuzzy_date_format: F
 
+github:
+    url: https://github.com/drupal-bristol/drupal-bristol.github.io
+
 imports:
     - venues.yml
     - events.yml
