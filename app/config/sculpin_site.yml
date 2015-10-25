@@ -6,7 +6,7 @@ default_date_format: jS F
 fuzzy_date_format: F
 
 github:
-    url: https://github.com/drupal-bristol/drupal-bristol.github.io
+    url: https://github.com/drupal-bristol/drupalbristol.org.uk
 
 imports:
     - venues.yml
