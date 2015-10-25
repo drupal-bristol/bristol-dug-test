@@ -1,4 +1,0 @@
----
-permalink: CNAME
----
-{{ site.url }}
