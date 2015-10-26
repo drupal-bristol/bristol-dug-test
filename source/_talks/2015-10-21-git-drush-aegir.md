@@ -9,4 +9,6 @@ tags:
     - git
     - fabric
     - aegir
+speakers:
+    - iain_houston
 ---

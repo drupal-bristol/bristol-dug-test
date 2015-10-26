@@ -1,0 +1,23 @@
+---
+speakers:
+    oliver_davies:
+        name: Oliver Davies
+        link: http://www.oliverdavies.uk
+
+    tim_marsh:
+        name: Tim Marsh
+
+    rupert_jabelman:
+        name: Rupert Jabelman
+
+    rose_nichols:
+        name: Rose Nichols
+
+    rick_donohoe:
+        name: Rick Donohoe
+        link: https://microserve.io/about/rick-donohoe/
+        bio: 'Account Manager at <a href="https://microserve.io">Microserve</a>.'
+
+    iain_houston:
+        name: Iain Houston
+        link: https://iainhouston.com/
