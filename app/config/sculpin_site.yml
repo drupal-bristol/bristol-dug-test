@@ -11,13 +11,17 @@ github:
 imports:
     - venues.yml
     - events.yml
+    - speakers.yml
 
 sponsors:
-    - name: Sift
-      website: http://www.sift.com/
+    sift:
+        name: Sift
+        website: http://www.sift.com/
 
-    - name: Microserve
-      website: https://microserve.io/
+    microserve:
+        name: Microserve
+        website: https://microserve.io/
 
-    - name: Halo
-      website: http://wearehalo.co.uk/
+    halo:
+        name: Halo
+        website: http://wearehalo.co.uk/

@@ -3,10 +3,6 @@
 {% block content_bottom %}
     {{ parent() }}
 
-    {% if page.slides.embed %}
-        <hr>
-        <div class="slides">
-            {{ page.slides.embed|raw }}
-        </div>
-    {% endif %}
-{% endblock content_bottom %}
+    {{ include('talk-speakers', { speakers: page.speakers }) }}
+    {{ include('talk-slides', { slides: page.slides }) }}
+{% endblock %}

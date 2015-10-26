@@ -1,0 +1,20 @@
+{% if speakers %}
+    <h2>Speakers</h2>
+
+    <ul>
+        {% for speaker in speakers %}
+            {% set info = site.speakers[speaker] %}
+            <li>
+                {% if info.link %}
+                    <a href="{{ info.link }}">{{ info.name }}</a>
+                {% else %}
+                    {{ info.name }}
+                {% endif %}
+
+                {% if info.bio %}
+                    - {{ info.bio|raw }}
+                {% endif %}
+            </li>
+        {% endfor %}
+    </ul>
+{% endif %}
