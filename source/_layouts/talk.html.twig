@@ -3,6 +3,8 @@
 {% block content_bottom %}
     {{ parent() }}
 
+    <p>Date: {{ page.date|date('jS F Y') }}</p>
+
     {{ include('talk-speakers', { speakers: page.speakers }) }}
     {{ include('talk-slides', { slides: page.slides }) }}
 {% endblock %}
