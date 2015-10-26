@@ -1,0 +1,12 @@
+{% extends "page" %}
+
+{% block content_bottom %}
+    {{ parent() }}
+
+    {% if page.slides.embed %}
+        <hr>
+        <div class="slides">
+            {{ page.slides.embed|raw }}
+        </div>
+    {% endif %}
+{% endblock content_bottom %}
