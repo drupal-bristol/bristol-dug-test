@@ -1,10 +1,21 @@
 {% extends "page" %}
 
-{% block content_bottom %}
+{% block content_top %}
     {{ parent() }}
 
     <p>Date: {{ page.date|date('jS F Y') }}</p>
 
     {{ include('talk-speakers', { speakers: page.speakers }) }}
+{% endblock %}
+
+{% block content_wrapper %}
+    <h2>Description</h2>
+
+    {{ parent() }}
+{% endblock %}
+
+{% block content_bottom %}
+    {{ parent() }}
+
     {{ include('talk-slides', { slides: page.slides }) }}
 {% endblock %}
