@@ -3,6 +3,7 @@ speakers:
     oliver_davies:
         name: Oliver Davies
         link: http://www.oliverdavies.uk
+        bio: 'Senior Developer at <a href="https://microserve.io">Microserve</a>.'
 
     tim_marsh:
         name: Tim Marsh
