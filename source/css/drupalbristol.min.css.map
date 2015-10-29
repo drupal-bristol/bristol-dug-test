@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACI,wBACQ,CACJ,eAAe,CAAE,IAAI,CAGzB,WAAO,CACH,aAAa,CAAE,SAAS,CAIhC,KAAM,CACJ,UAAU,CAAE,IAAI,CAChB,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC",
+"sources": ["../../sass/drupalbristol.scss"],
+"names": [],
+"file": "drupalbristol.min.css"
+}
