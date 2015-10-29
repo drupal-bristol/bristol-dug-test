@@ -1,4 +1,7 @@
 ---
+sculpin:
+    ignore:
+        - "**/*.min.css.map"
 sculpin_content_types:
     posts:
         enabled: false

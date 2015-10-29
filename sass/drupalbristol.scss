@@ -1,0 +1,25 @@
+main {
+    a:link,
+    a:hover {
+        text-decoration: none;
+    }
+
+    a:link {
+        border-bottom: 1px solid;
+    }
+}
+
+// Lists.
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+// Blocks.
+
+aside section[class^=block--]:not(:first-child) {
+  border-top: 1px solid #eee;
+  margin-top: 20px;
+}

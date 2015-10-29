@@ -1,12 +1,15 @@
-<h2>Sponsors</h2>
-<ul>
-    {% for sponsor in site.sponsors %}
-        <li>
-            {% if sponsor.website %}
-                <a href="{{ sponsor.website }}">{{ sponsor.name }}</a>
-            {% else %}
-                {{ sponsor.name }}
-            {% endif %}
-        </li>
-    {% endfor %}
-</ul>
+<section class="block--sponsors">
+    <h2>Sponsors</h2>
+
+    <ul>
+        {% for sponsor in site.sponsors %}
+            <li>
+                {% if sponsor.website %}
+                    <a href="{{ sponsor.website }}">{{ sponsor.name }}</a>
+                {% else %}
+                    {{ sponsor.name }}
+                {% endif %}
+            </li>
+        {% endfor %}
+    </ul>
+</section>
