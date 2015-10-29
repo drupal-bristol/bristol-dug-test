@@ -5,6 +5,11 @@ email: info@drupalbristol.org.uk
 default_date_format: jS F
 fuzzy_date_format: F
 
+drupalorg:
+    url: https://groups.drupal.org/bristol-west-uk
+twitter:
+    url: https://twitter.com/drupalbristol
+    name: drupalbristol
 github:
     url: https://github.com/drupal-bristol/drupalbristol.org.uk
 
