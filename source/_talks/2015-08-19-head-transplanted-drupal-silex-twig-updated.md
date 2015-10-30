@@ -6,4 +6,6 @@ tags:
 speakers:
     - rupert_jabelman
     - rose_nichols
+use:
+    - speakers
 ---

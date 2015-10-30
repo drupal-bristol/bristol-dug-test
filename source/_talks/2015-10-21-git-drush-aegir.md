@@ -11,4 +11,6 @@ tags:
     - aegir
 speakers:
     - iain_houston
+use:
+    - speakers
 ---
