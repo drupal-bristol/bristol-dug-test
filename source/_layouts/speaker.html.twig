@@ -1,5 +1,13 @@
 {% extends 'page' %}
 
+{% block content_top %}
+    {{ parent () }}
+
+    {% if page.bio %}
+        <p class="lead">{{ page.bio|raw }}</p>
+    {% endif %}
+{% endblock %}
+
 {% block content_bottom %}
     {% for talk in data.talks if page.shortname in talk.speakers %}
         {% if loop.first %}
