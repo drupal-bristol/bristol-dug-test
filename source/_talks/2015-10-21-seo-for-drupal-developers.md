@@ -7,4 +7,6 @@ tags:
     - seo
 speakers:
     - rick_donohoe
+use:
+    - speakers
 ---

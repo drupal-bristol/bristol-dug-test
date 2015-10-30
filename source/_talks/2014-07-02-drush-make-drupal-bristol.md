@@ -7,6 +7,8 @@ slides:
     embed: '<script async class="speakerdeck-embed" data-id="42605700f102013198de5a5f6f23ab67" data-ratio="1.29456384323641" src="//speakerdeck.com/assets/embed.js"></script>'
 tags:
     - drush
+use:
+    - speakers
 ---
 At the [Drupal Association](https://assoc.drupal.org), we use [Drush Make](http://www.drush.org/en/master/make/) to manage all of our codebases for Drupal.org and it’s subsites.
 
