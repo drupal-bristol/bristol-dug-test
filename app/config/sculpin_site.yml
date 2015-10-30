@@ -16,7 +16,6 @@ github:
 imports:
     - venues.yml
     - events.yml
-    - speakers.yml
 
 sponsors:
     sift:
