@@ -1,0 +1,23 @@
+{% extends 'page' %}
+
+{% block content_top %}
+    {{ parent () }}
+
+    {% if page.bio %}
+        <p class="lead">{{ page.bio|raw }}</p>
+    {% endif %}
+{% endblock %}
+
+{% block content_bottom %}
+    {% for talk in data.talks if page.shortname in talk.speakers %}
+        {% if loop.first %}
+            <h2>Talks</h2>
+        {% endif %}
+
+        <ul>
+            <li>
+                <a href="{{ talk.url }}">{{ talk.title }}</a>
+            </li>
+        </ul>
+    {% endfor %}
+{% endblock %}

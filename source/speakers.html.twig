@@ -1,0 +1,13 @@
+---
+layout: page
+title: Speakers
+use:
+    - speakers
+---
+<ul>
+    {% for speaker in data.speakers %}
+        <li>
+            <a href="{{ speaker.url }}">{{ speaker.title }}</a>
+        </li>
+    {% endfor %}
+</ul>

@@ -4,4 +4,6 @@ tags:
     - performance
 speakers:
     - tim_marsh
+use:
+    - speakers
 ---
