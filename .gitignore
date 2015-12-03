@@ -1,3 +1,4 @@
 output_*/
 source/components/
+vendor/
 .sass-cache/
