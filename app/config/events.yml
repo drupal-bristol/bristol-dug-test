@@ -305,11 +305,12 @@ events:
       link: https://groups.drupal.org/node/487448
       location: small_bar
 
-    - title: December Christmas Thing?
-      date: 2015-12
-      fuzzy_date: yes
-      link: https://groups.drupal.org/node/478963
+    #- title: December Christmas Thing?
+    #  date: 2015-12
+    #  fuzzy_date: yes
+    #  link: https://groups.drupal.org/node/478963
 
     - title: January Lightning Talks
       date: 2016-01-20
       link: https://groups.drupal.org/node/484033
+      location: temple_studios

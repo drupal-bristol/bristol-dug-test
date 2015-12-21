@@ -30,3 +30,7 @@ venues:
     small_bar:
         name: Small Bar
         website: http://www.smallbarbristol.com/
+
+    temple_studios:
+        name: Temple Studios
+        website: http://www.templestudiosbristol.co.uk/
