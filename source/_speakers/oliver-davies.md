@@ -1,8 +1,8 @@
 ---
 shortname: oliver_davies
 title: Oliver Davies
-bio: Senior Developer at <a href="https://microserve.io">Microserve</a>.
-website: http://www.oliverdavies.uk
+bio: Lead Drupal Developer at <a href="https://www.ctidigital.com">CTI Digital</a>.
+website: https://www.oliverdavies.uk
 twitter: opdavies
 drupalorg:
     name: opdavies
